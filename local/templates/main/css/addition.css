@@ -1,0 +1,86 @@
+.ulstyle{
+
+    list-style : circle !important;
+    padding-left:20px !important;
+
+}
+
+.img-brown{
+
+    width: 100px;
+    height:90px;
+}
+
+/* DivTable.com */
+.divTable{
+    display: table;
+    width: 100%;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    display: table-cell;
+    padding: 3px 10px;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody {
+    display: table-row-group;
+}
+
+.pNews{
+
+    text-indent: 1.5em !important;
+    padding-bottom: 1em !important;
+    margin: 0px !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: justify !important;
+}
+
+.h1News{
+
+    padding-bottom: 1em;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 2em;
+
+}
+
+.h2News{
+
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+    font-weight: normal;
+}
+.h3News{
+
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+    font-weight: normal;
+}
+
+.h1NewsDetail{
+
+    font-size: 1.75em !important;
+    padding-bottom: 1em;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1;
+
+}
