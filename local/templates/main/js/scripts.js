@@ -51,7 +51,7 @@ window.onload = function(){
             $('.n-header').css('top','auto');
         }
         //console.log($(window).scrollTop());
-    })
+    });
 
     $('input, textarea').placeholder();
 
@@ -68,7 +68,7 @@ window.onload = function(){
         }
       });
 
-    };
+    }
 
     placeholder();
 
@@ -272,10 +272,10 @@ window.onload = function(){
             }
         },
         gallery: {
-            enabled: true,
+            enabled: true
         },
         image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
 
@@ -309,7 +309,7 @@ window.onload = function(){
         } else {
             $(this).find('span').addClass('n-header__icons__menu--active');
         }
-    })
+    });
 
     if (('.n-main__slider-h__container').length) {
 
@@ -322,7 +322,7 @@ window.onload = function(){
                crossFade: true
             },
             loop: true,
-            autoplayDisableOnInteraction: false,
+            autoplayDisableOnInteraction: false
         });
     }
 
@@ -423,7 +423,7 @@ window.onload = function(){
         if (isMobileWidth()) {
             $('.n-main__col__form').css('margin-top','15px');
         }
-    })
+    });
 
     //!check-field//
 
@@ -557,7 +557,12 @@ window.onload = function(){
 		})
 	}
 
+
+//	конец
 };
+
+
+
 
 function getParam(param, name)
 {
