@@ -32,11 +32,11 @@ E-mail    arkhipovvladislav@mail.ru
 .banner {
   position: relative;
   /*float: right;*/
-  width: 260px;
-  height: 384px;
+  /*width: 260px;*/
+  /*height: 384px;*/
   border: 4px solid #b5b5b5;
   border-radius: 4px;
-  background: #196fb1 url("../img/banner.png") no-repeat center;
+  /*background: #196fb1 url("../img/banner.png") no-repeat center;*/
   transition: border-color .3s ease-in;
     font: 400 16px sans-serif;
     color: #8c8c8c;
@@ -50,6 +50,11 @@ E-mail    arkhipovvladislav@mail.ru
 }
 .banner:hover {border-color: #fff;}
 
+.banner__img img{
+  display: block;
+  width: 100%;
+}
+
 .banner__icon {
   position: absolute;
   top: 50%;
@@ -60,6 +65,11 @@ E-mail    arkhipovvladislav@mail.ru
   transform: translateY(-50%);
 }
 
+.banner__body {
+  background-color: #1f7abf;
+  padding: 32px 10px;
+}
+
 .banner__text {
   /*position: absolute;*/
   /*bottom: 90px;*/
@@ -68,17 +78,18 @@ E-mail    arkhipovvladislav@mail.ru
   font: 300 22px/26px "Open Sans", sans-serif;
   color: #fff;
   /*transform: translateX(-118px);*/
-  padding: 245px 10px 20px 10px;
+  /*padding: 28px 10px 20px 10px;*/
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .banner__text span {font-weight: 600;}
 
 .banner__link {
-  position: absolute;
-  left: 50%;
-  bottom: 18px;
-  width: 100%;
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*bottom: 18px;*/
+  /*width: 100%;*/
   color: #fff;
   font-family: "Open Sans";
   font-size: 14px;
@@ -86,7 +97,7 @@ E-mail    arkhipovvladislav@mail.ru
   line-height: 18px;
   text-decoration: underline;
   text-align: center;
-  transform: translateX(-50%);
+  /*transform: translateX(-50%);*/
 }
 
 .banner__link-icon {
@@ -94,35 +105,35 @@ E-mail    arkhipovvladislav@mail.ru
   display: inline-block;
   width: 0px;
   height: 0px;
-  margin-top: 10px;
-  border-top: 9px solid transparent;
-  border-right: 0;
-  border-bottom: 9px solid transparent;
-  border-left: 12px solid transparent;
-  border-left-color: #fff;  
+  margin: 2px 0 0 6px;
+  /*border-top: 9px solid transparent;*/
+  /*border-right: 0;*/
+  /*border-bottom: 9px solid transparent;*/
+  /*border-left: 12px solid transparent;*/
+  /*border-left-color: #fff;  */
 }
 
-.banner__link-icon:before{
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0px;
-  height: 0px;
-  border: 5px solid transparent;
-  border-right: 0;
-  border-left-color: #1568a8;
-  transform: translate(-12px, -50%);
-}
+/*.banner__link-icon:before{*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*width: 0px;*/
+  /*height: 0px;*/
+  /*border: 5px solid transparent;*/
+  /*border-right: 0;*/
+  /*border-left-color: #1568a8;*/
+  /*transform: translate(-12px, -50%);*/
+/*}*/
 
-.banner__link-icon:after {
-  content: "";
-  position: absolute;
-  bottom: -14px;
-  left: -16px;
-  width: 17px;
-  height: 1px;
-  background-color: #fff;
-}
+/*.banner__link-icon:after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*bottom: -14px;*/
+  /*left: -16px;*/
+  /*width: 17px;*/
+  /*height: 1px;*/
+  /*background-color: #fff;*/
+/*}*/
 
 .banner__link:hover .banner__link-icon:after {display: none;}
