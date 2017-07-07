@@ -33,6 +33,11 @@
     width: 100%;
     margin: 0;
 }
+
+.n-main__slider-item {
+    display: block;
+}
+
 .n-main__l-slider {
     border: 10px solid #fff;
 }
@@ -183,10 +188,13 @@
 @media all and (max-width: 620px) {
 
     .banner__img {
-        width: 200px;
+        width: 185px;
     }
     .banner__body {
-        margin-left: 200px;
+        margin-left: 185px;
+    }
+    .banner__text {
+        font-size: 18px;
     }
 }
 @media all and (max-width: 460px) {
